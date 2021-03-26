@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "jamierachael.github.io/react-task-tracker",
+  "homepage": "https://jamierachael.github.io/react-task-tracker/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
