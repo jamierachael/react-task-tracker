@@ -112,7 +112,7 @@ const App = () => {
             </>
           )}
         />
-        <Route path='/' component={AddTask} />
+        <Route path='/' />
         <Footer />
       </div>
     </Router>
