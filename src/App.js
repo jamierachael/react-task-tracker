@@ -95,7 +95,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Route
-          path='/react-task-tracker'
+          path='/'
           exact
           render={(props) => (
             <>
@@ -112,7 +112,7 @@ const App = () => {
             </>
           )}
         />
-        <Route path='/react-task-tracker' component={About} />
+        <Route path='/' component={About} />
         <Footer />
       </div>
     </Router>
