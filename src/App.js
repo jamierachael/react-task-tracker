@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import About from './components/About'
@@ -95,7 +95,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Route
-          path='/'
+          path='/index.html'
           exact
           render={(props) => (
             <>
@@ -113,7 +113,7 @@ const App = () => {
           )}
         />
         <Route path='/' component={About} />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   )
