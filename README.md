@@ -1,8 +1,16 @@
+# React Crash Course (Task Tracker)
+
+> This is the project from the YouTube crash course
+
+### Refresher course for React Redux
+
 * [GitHub Repository](https://github.com/jamierachael/react-task-tracker)
 * [Deployed GitHub IO](https://jamierachael.github.io/react-task-tracker)
+* [Original YouTube Video](https://youtu.be/93p3LxR9xfM)
 
-
-
+### Notes for improvement
+* Deployed link goes to "About" page first 
+* Rewrite react routing 
 
 
 # Getting Started with Create React App
